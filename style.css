@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: auto;
+}
+
+
+body{
+    background: rgb(26,161,167);
+    background: linear-gradient(180deg, rgba(26,161,167,1) 0%, rgba(37,46,66,1) 100%);
+    background-repeat: no-repeat;
+}
+
+
+.perfil{
+    text-align: center;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    box-shadow: rgb(255 255 255) 0 0 100px;
+}
+
+h1, h2{
+    font-family: 'Lora', serif;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 5px;
+}
+
+.social li a img{ 
+    width: 33px;
+}
+
+.links{
+    margin-top: 25px;
+    list-style: none;
+    display: block;
+}
+
+.links li{
+    background-color: aliceblue;
+    margin: 10px 10px;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: rgb(19, 60, 83);
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lora', serif;
+}
+
+.links p{
+    margin-top: 10px;
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+}
+
+.destaque{
+    box-shadow: rgb(32, 15, 133) 10px 10px 10px;
+}
